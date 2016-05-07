@@ -1,5 +1,5 @@
 {
-    "name" : "JavaScript Testing",
+    "name" : "JavaScriptTesting",
     "devDependencies" : {
         "mocha": "*",
         "mocha-bamboo-reporter": "*",
