@@ -1,6 +1,6 @@
 var assert = require('chai').assert;
 
-describe('MyClass tests', function() {
+describe('Person tests', function() {
     var Person = require("../myApp/Person");
     describe('Baseline', function () {
         it('should exist and be usable', function () {
