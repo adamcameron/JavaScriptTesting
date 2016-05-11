@@ -18,9 +18,9 @@ describe('Person tests', function() {
         });
         describe('getAgeInYears tests', function () {
             it('should return the correct age in years', function () {
-                var person = new Person("FIRST_NAME", "LAST_NAME", "1970-02-17");
+                var person = new Person("FIRST_NAME", "LAST_NAME", new Date("1970-02-17"));
                 var ageInYears = person.getAgeInYears();
-                assert.equal(46, ageInYears);
+                assert.equal(46, ageInYears); // obvious not a very robust test
             });
         });
     });
