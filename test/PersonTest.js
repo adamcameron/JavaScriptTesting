@@ -16,5 +16,12 @@ describe('Person tests', function() {
                 assert.equal("FIRST_NAME LAST_NAME", fullName);
             });
         });
+        describe('getAgeInYears tests', function () {
+            it('should return the correct age in years', function () {
+                var person = new Person("FIRST_NAME", "LAST_NAME", "1970-02-17");
+                var ageInYears = person.getAgeInYears();
+                assert.equal(46, ageInYears);
+            });
+        });
     });
 });
